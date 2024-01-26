@@ -64,7 +64,7 @@ const editPost = () => {
         body,
         tagsArray,
         uid: user.uid,
-        createBy: user.displayName
+        createdBy: user.displayName
       }
 
     updateDocument(id,data);
